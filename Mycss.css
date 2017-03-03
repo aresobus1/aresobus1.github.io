@@ -1,0 +1,269 @@
+
+/* #label - buttor that calls function for progressbar*/
+/* a href - links for other pages*/
+/* #life - homepage link, located in left corner of each page*/
+/* #myProgress - div for progressbar - for all page - width 100%*/
+/* #myBar - div for progressbar- short, 10% width of myProgress*/
+/* #ul2 - unordered list for social media images in footer/
+/* #slideShow1 - slideshow for Future.html page/
+/* #img1 - main image for future page slideshow/
+/* #future - video for future.html page */
+/* #button - setting for buttons for main page slideshow, if I want them to work instead of automated slideshow*/
+/* #mainP -id for text in main page first paragr*/
+/* #inMain id for div for mainP and button in main page, Function Reveal works for all element in Main*/
+/* .lastImage - class for last 3 images on main page "money, police, people"*/
+/* .left . right - setting for slideshow buttons on main page if I will need them*/
+/* #map id for google map on location.html */
+/* #.header-bg - class for parallax effect on each page main image*/
+/* table - table with images on money.html*/
+
+
+
+
+body {
+	margin: 0;
+	font-family: 'Strait', sans-serif;
+	background-color: rgb(18, 16, 18);
+	color: white;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+a {
+	font-size: 17px;
+	color: #177245;
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+nav ul {
+	background-color: rgba(255, 255, 255, 0.36);
+	width: 100%;
+	margin: 0;
+	padding: 20px 0;
+}
+
+ul {
+	list-style: none;
+	position: absolute;
+	z-index: 1;
+	padding-left: 20px;
+	display: inline;	
+
+}
+
+li { 
+	display: inline-block;
+	padding-right: 40px;
+	font-size: 17px;
+	color: #177245;
+	 }
+
+li:hover {
+  transition: all ease-in-out 1s;
+  text-shadow: 0 0 3px #177245, 0 0 5px #177245;
+}
+
+p {
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#button {
+margin: 0 auto;
+width: 170px;
+height: 50px;
+background-color: transparent;
+color: white;
+padding: 0;
+font-size: 20px;
+font-family: 'Strait', sans-serif;
+text-align: center;
+}
+
+#button:hover {
+	background-color: white;
+	cursor: pointer;
+	color: black;
+}
+
+#button:focus {
+	outline: none;
+}
+
+#life {
+	margin-left: 100px;
+	padding-right: 950px;
+	font-size: 20px;
+
+}
+
+
+
+#mainP {
+	font-size: 30px;
+	text-align: center;
+}
+#inMain {
+	height: 650px;
+	width: 100%;
+}
+
+.header-bg {
+	position: absolute;
+	width: 100%;
+	height: 300%;
+	background-image: url(pit8.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom ;
+}
+
+
+h1 {
+	margin-top: 25%;
+	z-index: 1;
+	text-align: center;
+	color: #177245;
+	position: relative;
+	
+}
+
+header {
+
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 0px;
+	overflow: hidden;
+
+}
+
+footer {
+	height: 100%;
+	width: 100%;
+	text-align: left;
+
+
+
+}
+
+footer li {
+	color: white;
+	display: block;
+	text-align: left;	
+	margin-left: 20px;
+	margin-top: 8px;
+	color: #177245;
+
+}
+
+
+footer h2 {
+	
+	color: white;
+	text-align: right;
+	font-size: 15px;
+	margin-right: 10px;
+	color: #177245;
+}
+
+#img {
+	height: 600px;
+	width: 900px;
+	position: relative;
+	border-radius: 20px 100px;
+
+	
+}
+#slideShow {
+	position: relative;
+	z-index: 1;	
+	text-align: center;
+
+}
+
+
+.lastImage {
+	display: inline-block;
+	width: 102%;
+	position: relative;
+	margin-top: 200px;
+}
+
+.left {
+height: 50px;
+width: 50px;
+display: inline;	
+opacity: 0.1;
+margin-left: 180px;
+position: fixed;
+top: 170px;
+border-radius: 50px;
+}
+
+.right {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	margin-left: 1100px;
+	top: 170px;
+	opacity: 0.1;
+	border-radius: 50px;
+   
+}
+
+#ul2 {
+	position: relative;
+	display: inline-block;
+	margin-left: 330px;
+	margin-top: 40px;
+
+}
+
+h2 {
+ position: absolute;
+ margin-left: 1100px;
+ margin-top: -40px;
+ color: #177245;
+}
+
+.lastImage img {
+
+  width: 33%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.lastImage img:hover {
+ 	
+ width: 33.9%;
+ filter: opacity(0.2);
+
+}
+
+.lastImage1 img {
+	position: relative;
+	float: left;
+}
+
+.lastImage h3 {
+	position: absolute;
+	z-index: 1;
+	display: inline;
+	margin-left: 170px;
+	margin-top: 120px;
+	font-size: 23px;
+	color: white;
+}
+

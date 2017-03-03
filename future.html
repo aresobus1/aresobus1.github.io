@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Future</title>
+	<link rel="stylesheet" type="text/css" href="future.css">
+	<link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+	
+</head>
+<body onload="slideB()">
+
+<header>
+		<nav class="nav">
+			<ul class="ulnav">
+				<li id="life"><a href="index.html"> Life</a></li>
+				<li class="linav"><a href="history.html">History</a></li>
+				<li class="linav"><a href="future.html">Future</a></li>
+				<li class="linav"><a href="location.html">Location</a></li>
+			</ul>
+		</nav>
+</header>
+
+<script src="future.js"></script>
+<video src="future.mp4" id="future" autoplay="1" loop="1"></video>
+	
+
+	<div id="slideShow1">
+		<img src="img1.jpg" id="img1" />
+	</div>
+
+
+<div id="myProgress">
+  <div id="myBar">
+    <div class="button" onclick="move(); move1();" id="label">Today</div>
+<script>
+function move1() {
+        document.getElementById('img1').style.opacity = '1';
+         document.getElementById('img1').style.marginTop = '0';
+        document.getElementById('future').style.display = 'none';
+}
+</script>
+  </div>
+</div>
+
+</body>
+	<footer>
+	<ul>
+		<li>Pitcairn@gmail.com</li>
+		<li>There is no phone numbers on Pitcairn</li>
+
+	</ul>	
+	<ul id="ul2">
+		<a href="https://www.facebook.com/"><img src="facebook.png" height="28" width="28"></a>
+		<a href="https://www.twitter.com/"><img src="twitter.png" height="28" width="28"></a>
+		<a href="https://www.instagram.com/"><img src="insta.png" height="28" width="28"></a>
+		<a href="https://www.linkedin.com/"><img src="link.png" height="28" width="28"></a>
+	</ul>
+	
+		<h2> &copy;2016 Pitc. All right reserved</h2>
+
+	</footer>
+
+</html>

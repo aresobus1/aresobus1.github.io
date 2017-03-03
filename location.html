@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Location</title>
+	<link rel="stylesheet" type="text/css" href="location.css">
+	<link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+</head>
+<body>
+<header>
+		<nav>
+			<ul>
+				<li id="life"><a href="index.html"> Life</a></li>
+				<li><a href="history.html">History</a></li>
+				<li><a href="future.html">Future</a></li>
+				<li><a href="location.html">Location</a></li>
+			</ul>
+		</nav>
+
+</header>
+ </head>
+   <body>
+
+		<video src="location.mp4" id="myVideo" height="100%" width="100%" autoplay></video>
+
+    <div id="map">ss</div>
+    <script>
+      function initMap() {
+        var alex = {lat: -24.3689954, lng: -164.1675818};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: alex
+        });
+        var marker = new google.maps.Marker({
+          position: alex,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdOYeNHLTcT57PbiBFcfRfsplyB1w1taQ&callback=initMap">
+    </script>
+
+
+
+</body>
+
+
+</html>
